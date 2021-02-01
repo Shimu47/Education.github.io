@@ -1,0 +1,169 @@
+/*Global CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #ffc178;
+}
+
+ul{
+  list-style: none;
+}
+/* Header Section CSS*/
+header{
+	background: url(../img/banner-image.png);
+    background-size: 100% 100%;
+    padding-bottom: 150px;  
+}
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active{
+    color:#ffc178;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #919ca2;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+   color:#ffc178;
+}
+.navbar-light .navbar-nav button{
+	padding: 0px 20px;
+	color:#ffc178;
+	border: none;
+	outline: none;
+	background: #ffffff;
+	border-radius: 10px;
+}
+.navbar-light .navbar-toggler {
+    color: #ffc178;
+    border-color: #ffc178;
+}
+
+/*Banner Section CSS*/
+.banner-content h1{
+    color:#ffc178;
+}
+.banner-content p{
+	color:#708189;
+}
+.banner-content a{
+ background: #ffc178;
+ color: #fff;
+ border: 1px solid #ffc178;
+ border-radius: 10px;
+ padding: 8px 18px;
+}
+/* Dept Section CSS*/
+.dept-section .our-dept{
+	text-align: center;
+	margin-top: 50px;
+}
+.dept-section h2{
+	color:#252c3a;
+}
+.dept-section p{
+	color: #9ca8af;
+	padding-bottom: 40px;
+}
+.dept-section .edu-system{
+	position: relative;
+	padding: 20px 0 0 0;
+}
+.dept-section .on-edu{
+	position: absolute;
+	top: 70%;
+	left: 10%;
+}
+.dept-section .on-edu h3{
+	color: #fff;
+	font-weight: 500;
+}
+/*Intro Section CSS*/
+.intro-section .learning-section{
+	margin-top: 70px;
+}
+/* Service Section CSS*/
+.service-section{
+	padding-bottom: 50px;
+}
+.service-section h1{
+	text-align: center;
+}
+.service-section .card{
+	margin-top: 40px;
+    border: 1px solid rgba(0,0,0,.025);
+    border-radius: 0;
+    box-shadow: 0px 0px 10px #eee;
+}
+/* FooterTop Section CSS*/
+.footertop-section{
+ background-color: #252c3a;
+ padding: 100px 0;
+}
+.footertop-section  hr{
+	color: #303744;
+	height: 2px;
+}
+.footertop-section .fa{
+	color:#454648;
+	padding-right: 5px;
+	font-size: 20px;
+	transition: .4s ease-in-out;
+}
+.footertop-section .fa:hover{
+	color:#0089fd
+}
+.footertop-section h5{
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.footertop-section  ul{
+	padding-left: 0;
+}
+.footertop-section li{
+   padding-top: 10px;
+}
+.footertop-section p, li{
+	color: #969595;
+}
+.footertop-section input{
+	width: 50%;
+	padding: 4px 5px;
+}
+.footertop-section a.help{
+	background: #ffc178;
+	border: 1px solid #ffc178;
+	padding: 7px 8px;
+	color: #454648;
+	margin-left: -4px;
+}
+/* Footerr Section CSS*/
+footer{
+	padding-top: 15px;
+	background: #1d232e;
+	margin-top: 1px;
+	color: #454648 ;
+}
+footer li{
+	display: inline;
+	padding-right: 10px;
+}
+footer a{
+ color: #454648;
+
+}

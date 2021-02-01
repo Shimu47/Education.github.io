@@ -1,0 +1,22 @@
+
+/* Responsive For Mobile*/
+ @media screen and (max-width: 767px){
+ .dept-section .edu-system {
+	justify-content: center;
+}
+ .dept-section .edu-system img {
+	margin: 0 auto;
+	display: block;
+}  
+ .dept-section .on-edu{
+	left: 30%;
+} 
+footer p{
+	text-align: center;
+}
+footer a{
+	text-align: center;
+	
+} 
+
+} 
